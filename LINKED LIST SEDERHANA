@@ -15,3 +15,9 @@ print(n1.next.data)  # Output: 20
 # penjelasan
 # Node ~struktur dasar linked list
 # data ~pointer ke node berikutnya
+
+# linked list itu:
+#terdiri dari node
+#tiap node punya:
+#data
+#pointer
