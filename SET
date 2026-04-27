@@ -1,0 +1,19 @@
+#set
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print("Isi basket:", basket) #menghilangkan duplikat
+
+#Mengecek keanggotaan
+print('orange' in basket) #True
+print('crabgrass' in basket) #False
+
+#set dari dia kata (huruf unik)
+a = set('abracadabra')
+b = set('alacazam')
+print("Set a:", a)
+print("Set b:", b)
+
+#Operasi set
+print(a - b) # huruf yang ada di a tapi tidak di b
+print(a | b) # huruf yang ada di a atau di b atau di keduanya
+print(a & b) # huruf yang ada di a dan di b
+print(a ^ b) # huruf yang ada di a atau di b tapi tidak di keduanya
