@@ -1,19 +1,24 @@
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 
+# MENGHITUNG JUMLAH
 print(fruits.count('apple'))#2
 print(fruits.count('tangerine'))#0
 
+# MANCARI INDEX
 print(fruits.index('banana'))#3
 print(fruits.index('banana', 4))#6
 
+# MENCARI URUTAN
 fruits.reverse()
 print(fruits)
 
+# MENAMBAHKAN
 fruits.append('grape')
 print(fruits)
 
+# MENGURUTKAN
 fruits.sort()
 print(fruits)
 
-print(fruits.pop())# menampilkan yang diihapus
-print(fruits)# list setelah pop
+print(fruits.pop())# EENGHAPUS ELEMENT TERAKHIR
+print(fruits)# SENAMPILKAN LIST SETELAH POP DIHAPUS
